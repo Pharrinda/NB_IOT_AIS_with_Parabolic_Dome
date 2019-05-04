@@ -1,12 +1,6 @@
 const request = require('request');
-// var app = require('express');
-//var io = require('socket.io')(http);
-
 const express = require('express');
 const app = express();
-
-//socket.io
-// const server_port = 7755;
 const dgram = require("dgram");
 const server = dgram.createSocket("udp4");
 
